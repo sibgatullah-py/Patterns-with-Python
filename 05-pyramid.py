@@ -4,7 +4,7 @@ def pyramid(n):
         for j in range(n - i):
             print(' ',end='')
         #printing pattern
-        for k in range(1,2*i):
+        for k in range(2*i-1):
             print("*",end='')
         print()
 
